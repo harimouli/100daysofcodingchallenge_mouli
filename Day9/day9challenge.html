@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FoodMuch Restaurant</title>
+    <link rel="stylesheet"  href="style.css">
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <div>
+        <h1>Welcome to FoodMuch Restaurant</h1> 
+        <p>Our restaurant,
+            <b>FoodMuch</b>
+                offers a unique blend of traditional and contemporary culinary delights, set in a cozy, inviting atmosphere perfect for any occasion.
+        </p>
+        <h3><b>Menu</b></h3> 
+        <h4><b>Appetizers</b></h4> 
+        <ul> 
+            <img src = "https://www.budgetbytes.com/wp-content/uploads/2023/08/Garlic-Bread-scattered.jpg" class = "food-item-image">
+            <li>Garlic Bread</li>
+            <img src = "https://www.lifeasastrawberry.com/wp-content/uploads/2012/11/warm-bruschetta-1.jpg" class = "food-item-image">
+            <li>Bruschetta</li>
+            <img src = "https://cdn.loveandlemons.com/wp-content/uploads/2019/12/stuffed-mushrooms-2.jpg" class = "food-item-image">
+            <li>Stuffed Mushrooms</li>
+        </ul
+        <h3><b>Famous Items</b></h3>
+        <ol> 
+            <li>Biryani</li>
+            <li>Butter Chicken</li>
+            <li>Korma</li>
+        </ol>
+        <hr>
+        <h3><b>Desserts</b></h3>
+        <ol>
+            <li>Cake</li>
+            <li>Cookie</li>
+            <li>Candy</li>
+        </ol>
+
+        <div class="review">
+            <h2>Submit your Review here</h2>
+            <form action="submit-review.php" method="post">
+                <div class = "review-written-container">
+                    <label for = "name">Name</label>
+                    <br/>
+                    <input class = "form-control" id = "name" type="text" name="customer_name" placeholder="Enter your name here"> 
+                </div>
+                <div class = "review-written-container">
+                    <label for = "user-review">Write your valuable review</label>
+                    <br/>
+                    <textarea id = "user-review" name="review" placeholder="Write your review here..."></textarea>
+                </div>
+                <input type="submit" value="Submit Review">
+            </form>
+        </div>
+ </div>
+</body>
+</html>
